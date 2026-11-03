@@ -1,0 +1,4 @@
+gymnasium==1.2.1
+minari==0.5.4
+numpy>=2.0
+torch>=2.0

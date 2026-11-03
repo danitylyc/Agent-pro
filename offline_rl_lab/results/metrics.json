@@ -1,0 +1,33 @@
+{
+  "dataset": "ChainEnv biased offline buffer (Gymnasium-style, Minari-compatible schema)",
+  "seeds": [
+    7,
+    11,
+    21
+  ],
+  "runs": [
+    {
+      "seed": 7,
+      "transitions": 1311,
+      "bc_return": -0.20000000000000004,
+      "cql_return": 0.9600000000000002
+    },
+    {
+      "seed": 11,
+      "transitions": 1317,
+      "bc_return": -0.20000000000000004,
+      "cql_return": 0.9600000000000002
+    },
+    {
+      "seed": 21,
+      "transitions": 1313,
+      "bc_return": -0.20000000000000004,
+      "cql_return": 0.9600000000000002
+    }
+  ],
+  "summary": {
+    "bc_mean_return": -0.20000000000000004,
+    "cql_mean_return": 0.9600000000000003,
+    "cql_minus_bc": 1.1600000000000001
+  }
+}

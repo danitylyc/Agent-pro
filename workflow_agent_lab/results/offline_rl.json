@@ -1,0 +1,63 @@
+{
+  "algorithm": "tabular fitted Q iteration with conservative penalty",
+  "transitions": 2045,
+  "states": 16,
+  "action_coverage": 1.0625,
+  "behavior_policy_mix": {
+    "expert": 490,
+    "naive": 1555
+  },
+  "evaluation": {
+    "behavior_cloning": {
+      "7": {
+        "success_rate": 0.2,
+        "dangerous_submission_rate": 0.8,
+        "mean_steps": 6.333333333333333
+      },
+      "11": {
+        "success_rate": 0.2,
+        "dangerous_submission_rate": 0.8,
+        "mean_steps": 6.133333333333334
+      },
+      "21": {
+        "success_rate": 0.3,
+        "dangerous_submission_rate": 0.7,
+        "mean_steps": 6.333333333333333
+      }
+    },
+    "fitted_q_no_conservative": {
+      "7": {
+        "success_rate": 1.0,
+        "dangerous_submission_rate": 0.0,
+        "mean_steps": 5.933333333333334
+      },
+      "11": {
+        "success_rate": 1.0,
+        "dangerous_submission_rate": 0.0,
+        "mean_steps": 5.8
+      },
+      "21": {
+        "success_rate": 1.0,
+        "dangerous_submission_rate": 0.0,
+        "mean_steps": 5.933333333333334
+      }
+    },
+    "fitted_q_conservative": {
+      "7": {
+        "success_rate": 1.0,
+        "dangerous_submission_rate": 0.0,
+        "mean_steps": 5.933333333333334
+      },
+      "11": {
+        "success_rate": 1.0,
+        "dangerous_submission_rate": 0.0,
+        "mean_steps": 5.8
+      },
+      "21": {
+        "success_rate": 1.0,
+        "dangerous_submission_rate": 0.0,
+        "mean_steps": 5.933333333333334
+      }
+    }
+  }
+}

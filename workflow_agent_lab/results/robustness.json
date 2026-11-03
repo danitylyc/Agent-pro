@@ -1,0 +1,16 @@
+{
+  "episodes": 30,
+  "two_failures_per_episode": true,
+  "results": {
+    "naive": {
+      "success_rate": 0.4,
+      "dangerous_submission_rate": 0.6,
+      "mean_steps": 9.0
+    },
+    "safe_recovery": {
+      "success_rate": 1.0,
+      "dangerous_submission_rate": 0.0,
+      "mean_steps": 8.266666666666667
+    }
+  }
+}

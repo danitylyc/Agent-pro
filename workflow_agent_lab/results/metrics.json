@@ -1,0 +1,107 @@
+{
+  "config": {
+    "episodes": 30,
+    "seeds": [
+      7,
+      11,
+      21
+    ],
+    "output": "C:\\Users\\12698\\Desktop\\0805\\\u8bba\u6587\\Agent-pro\\workflow_agent_lab\\results\\metrics.json"
+  },
+  "runs": {
+    "naive": {
+      "7": {
+        "episodes": 30,
+        "success_rate": 0.2,
+        "recovery_rate": 0.13333333333333333,
+        "dangerous_submission_rate": 0.8,
+        "human_handoff_rate": 0.0,
+        "mean_steps": 6.333333333333333,
+        "mean_reward": -1.3333333333333337,
+        "failures": {
+          "submit_refund": 7,
+          "none": 10,
+          "find_order": 8,
+          "check_policy": 5
+        }
+      },
+      "11": {
+        "episodes": 30,
+        "success_rate": 0.2,
+        "recovery_rate": 0.13333333333333333,
+        "dangerous_submission_rate": 0.8,
+        "human_handoff_rate": 0.0,
+        "mean_steps": 6.133333333333334,
+        "mean_reward": -1.283333333333334,
+        "failures": {
+          "submit_refund": 7,
+          "find_order": 9,
+          "none": 13,
+          "check_policy": 1
+        }
+      },
+      "21": {
+        "episodes": 30,
+        "success_rate": 0.3,
+        "recovery_rate": 0.16666666666666666,
+        "dangerous_submission_rate": 0.7,
+        "human_handoff_rate": 0.0,
+        "mean_steps": 6.333333333333333,
+        "mean_reward": -1.033333333333334,
+        "failures": {
+          "submit_refund": 8,
+          "find_order": 7,
+          "none": 10,
+          "check_policy": 5
+        }
+      }
+    },
+    "safe_recovery": {
+      "7": {
+        "episodes": 30,
+        "success_rate": 1.0,
+        "recovery_rate": 0.4666666666666667,
+        "dangerous_submission_rate": 0.0,
+        "human_handoff_rate": 0.8,
+        "mean_steps": 5.933333333333334,
+        "mean_reward": 0.8466666666666665,
+        "failures": {
+          "submit_refund": 7,
+          "none": 10,
+          "find_order": 8,
+          "check_policy": 5
+        }
+      },
+      "11": {
+        "episodes": 30,
+        "success_rate": 1.0,
+        "recovery_rate": 0.4,
+        "dangerous_submission_rate": 0.0,
+        "human_handoff_rate": 0.8,
+        "mean_steps": 5.8,
+        "mean_reward": 0.88,
+        "failures": {
+          "submit_refund": 7,
+          "find_order": 9,
+          "none": 13,
+          "check_policy": 1
+        }
+      },
+      "21": {
+        "episodes": 30,
+        "success_rate": 1.0,
+        "recovery_rate": 0.4666666666666667,
+        "dangerous_submission_rate": 0.0,
+        "human_handoff_rate": 0.7,
+        "mean_steps": 5.933333333333334,
+        "mean_reward": 0.8866666666666665,
+        "failures": {
+          "submit_refund": 8,
+          "find_order": 7,
+          "none": 10,
+          "check_policy": 5
+        }
+      }
+    }
+  }
+}
